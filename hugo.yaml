@@ -1,0 +1,25 @@
+baseURL: https://example.org/
+languageCode: ja-jp
+title: 貝類学研究集会
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+enableInlineShortcodes: true
+
+menu:
+  main:
+    - name: イベント
+      pageRef: /events
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 8
+    - name: Links
+      pageRef: /links
+      weight: 9
+    - name: Search
+      weight: 10
+      params:
+        type: search
