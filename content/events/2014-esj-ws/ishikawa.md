@@ -13,7 +13,7 @@ weight: 4
 {{< rawhtml >}}
 <figure class="ma0 w-75">
     <img 
-    src="/events/2014-esj-ws/Ishikawa_shells.png" 
+    src="../Ishikawa_shells.png" 
     alt="shells" 
     style="background-color:white;" 
     >
